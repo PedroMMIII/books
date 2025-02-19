@@ -6,7 +6,7 @@ const ContainerProgresso = ({ tempoTotalFaixa, tempoAtualFaixa, barraProgresso, 
   };
 
   return (
-    <section className="container-progresso">
+    <section className="container-progresso" onClick={avancarPara}>
       <div className="progresso-total" ref={barraProgresso} onClick={avancarPara}> 
 
         <div
